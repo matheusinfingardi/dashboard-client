@@ -1,7 +1,9 @@
 import { Hourglass, Package2, PackageCheck } from 'lucide-react';
 import { Card, CardTitle, CardHeader, CardDescription, CardContent } from '@/components/ui/card';
 import { ChartOverview } from '@/components/charts';
-import ReactGoogleMap from '@/components/map';
+import dynamic from 'next/dynamic';
+
+const ReactGoogleMap = dynamic(() => import('@/components/map'), { ssr: false });
 
 export default function Home() {
   return (
