@@ -1,6 +1,5 @@
-import { DollarSign, Hourglass, Package2, PackageCheck } from 'lucide-react';
-import { Button } from '../components/ui/button'
-import { Card, CardTitle, CardHeader, CardFooter, CardDescription, CardContent } from '@/components/ui/card';
+import { Hourglass, Package2, PackageCheck } from 'lucide-react';
+import { Card, CardTitle, CardHeader, CardDescription, CardContent } from '@/components/ui/card';
 import { ChartOverview } from '@/components/charts';
 import ReactGoogleMap from '@/components/map';
 

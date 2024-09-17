@@ -5,7 +5,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { LatLngExpression } from 'leaflet';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
-import { Eye, Map } from 'lucide-react';
+import { Map } from 'lucide-react';
 
 const position: LatLngExpression = [51.505, -0.09];
 

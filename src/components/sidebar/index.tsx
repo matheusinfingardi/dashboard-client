@@ -1,7 +1,7 @@
 import { Sheet, SheetTrigger, SheetContent } from '@/components/ui/sheet'
 import { Button } from '../ui/button'
 import Link from 'next/link'
-import { Home, HomeIcon, LogOut, Package, PanelBottom, Settings, ShoppingBag, Users } from 'lucide-react'
+import { Home, LogOut, Package, PanelBottom, Settings, ShoppingBag, Users } from 'lucide-react'
 import { TooltipProvider, Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip'
 
 
